@@ -1,0 +1,35 @@
+body {
+    background-color: red;
+    color: aquamarine;
+    font-family: cursive;
+  }
+  
+  nav {
+    border: 10px dashed black;
+  }
+  
+  ul {
+    background-color: blue;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header{
+      display:flex;
+}
+  
+  article {
+    width: 75%;
+  }
+
+  section{
+      width: 100%;
+      background-color: chartreuse
+  }
+  
+  aside {
+    width: 25%;
+  }
+  /*# sourceMappingURL=style.css.map */
