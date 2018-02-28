@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: aqua;
+}
+
+section {
+  height: 500px;
+  padding: 10px;
+  background-color: bisque;
+  margin: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+div {
+  background-color: brown;
+  font-size: 20px;
+  margin: 5px;
+  flex: 1;
+}
+/*# sourceMappingURL=styles.css.map */
