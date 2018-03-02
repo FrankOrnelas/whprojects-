@@ -1,0 +1,44 @@
+$keycolor: hsl(181, 100%, 41%);
+$white: hsl(0, 0%, 96%);
+$black: hsl(0, 0%, 8%);
+
+body{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+header{
+    padding: 10vw 2vw;
+    background-color: $keycolor;
+    text-align: center;
+    color: $white;
+
+}
+a:link{
+    color: inherit;
+}
+a:visited{
+    color: red;
+
+}
+a:hover{
+    color: green;
+
+}
+a:active{
+    color: black;
+}
+
+header div {
+    width: 50%;
+    padding: 5vw;
+    border-width: 3px 3px;
+    border-style: double solid;
+    border-color: $white;
+    margin: auto;
+}
+a{
+    color: inherit;
+}
+a.btn{
+    background-color: transparentize($black, $amount: 75%);
+}
