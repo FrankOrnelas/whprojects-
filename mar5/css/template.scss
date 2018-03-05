@@ -1,0 +1,78 @@
+$black: hsl(204, 6%, 17%);
+$ignite: hsl(191, 58%, 42%);
+$classic: hsl(11, 58%, 42%);    
+
+header{
+    display: flex;
+    overflow: hidden;
+    background-color: $black;
+    position: relative;
+
+}
+body{
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    color: $black;
+}
+
+.skew{
+    width: 50vw;
+    height: 200px;
+    transform: skew(-45deg);
+    transform-origin: left bottom;
+
+}
+.ignite{
+    background-color: $ignite;
+
+}
+.classic{
+    width: 200px;
+    background-color: $classic;
+    background-image: url("../img/classic-ribbon.svg");
+    background-size: 100px;
+    background-repeat: repeat-y;
+
+
+}
+.text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+h1{
+    margin: 0;
+}
+.logo{
+    width: 200px;
+    height: 100%;
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
+.marquee{
+    margin-left: -75px;
+    display: flex;
+    align-items: center;
+    h1{
+        text-shadow: 0 0 30
+    }
+}
+@media screen and (orientation: portrait){
+    .ignite{
+        background-color: red;
+    
+    }
+    .classic{
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 472px){
+    h1 {
+        font-size: 75%;
+    }
+}
