@@ -25,10 +25,25 @@ header {
   background-size: cover;
   background-position: center 68px;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 div {
   background-color: orangered;
   width: 60;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  display: inline-block;
 }
 /*# sourceMappingURL=template.css.map */
