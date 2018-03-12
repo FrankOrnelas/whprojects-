@@ -16,7 +16,7 @@ nav#horizontal {
 
 nav#horizontal ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 nav#horizontal ul a {
