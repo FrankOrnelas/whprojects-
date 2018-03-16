@@ -10,11 +10,21 @@ html{
     background-position: center;
 }
 body {
-    background-color: rgb(116, 23, 23);
+    // background-color: rgb(116, 23, 23);
     font-family: sans-serif;
     margin: 20;
     
 
+}
+div.about{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 0 0 15px 15px;
+        background-color: transparentize($color:  rgb(116, 23, 23), $amount: .2);
+        color: snow;
+    
 }
 ul {
     padding: 0;
@@ -50,20 +60,22 @@ nav#horizontal ul {
     }
 }
 h2{
-    
+   font-size: 40px; 
 }
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(8, 8, 8);
     font-style: inherit;
     font-family: fantasy;
     font-size: 30px;
     columns: 10vw;
     text-align: center;
+    text-shadow: 2px 2px 4px #fffefe;
 
 }
 p {
    font-style: inherit;
    justify-content: flex-start;
+   font-size: 25px;
 
 }
 .name{
@@ -71,4 +83,23 @@ p {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        border-radius: 0 0 15px 15px;
+        background-color: transparentize($color:  rgb(116, 23, 23), $amount: .2);
+        color: snow;
+    
+}
+div.box1 {
+    width: 200px;
+    background: snow;
+    height: 200px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;    
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background:transparentize($color:  rgb(116, 23, 23), $amount: .2);
+    border-radius: 0 0 15px 15px;
 }

@@ -10,9 +10,18 @@ html {
 }
 
 body {
-  background-color: #741717;
   font-family: sans-serif;
   margin: 20;
+}
+
+div.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0 0 15px 15px;
+  background-color: rgba(116, 23, 23, 0.8);
+  color: snow;
 }
 
 ul {
@@ -50,18 +59,24 @@ nav#horizontal ul a:hover, nav#horizontal ul a:active {
   background-color: #363636;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 h1 {
-  color: black;
+  color: #080808;
   font-style: inherit;
   font-family: fantasy;
   font-size: 30px;
   columns: 10vw;
   text-align: center;
+  text-shadow: 2px 2px 4px #fffefe;
 }
 
 p {
   font-style: inherit;
   justify-content: flex-start;
+  font-size: 25px;
 }
 
 .name {
@@ -69,5 +84,26 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 0 0 15px 15px;
+  background-color: rgba(116, 23, 23, 0.8);
+  color: snow;
+}
+
+div.box1 {
+  width: 200px;
+  background: snow;
+  height: 200px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background: rgba(116, 23, 23, 0.8);
+  border-radius: 0 0 15px 15px;
 }
 /*# sourceMappingURL=styles.css.map */
